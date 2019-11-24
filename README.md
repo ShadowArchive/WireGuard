@@ -6,7 +6,7 @@ WireGuard Config Key Generator, made by Xin Snowflakes for Japan Servers. It was
 
 (1): sh wan
 
-(2): format for the config file.
+(2): grab the results from JSON config, and example format for the config file.
 
 `[Interface]`
 
@@ -26,6 +26,7 @@ WireGuard Config Key Generator, made by Xin Snowflakes for Japan Servers. It was
 
 `PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=`
 
+(3): save the file into wg0.conf, and import.
 
 
 ## Made by:
