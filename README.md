@@ -9,16 +9,23 @@ WireGuard Config Key Generator, made by Xin Snowflakes for Japan Servers. It was
 (2): format for the config file.
 
 `[Interface]`
+
 `Address = 172.16.0.2/32, fd01:5ca1:ab1e:8860:45ab:e26d:6d44:3413/128`
+
 `DNS = 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844`
+
 `PrivateKey = IH2wEeerJpgk0B6mX0y8BSUYvTJowLeFEiwbkU5g2WA=`
 
 
 
 `[Peer]`
+
 `AllowedIPs = 0.0.0.0/1, 128.0.0.0/1, ::/1`
+
 `Endpoint = engage.cloudflareclient.com:2408`
+
 `PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=`
+
 
 
 ## Made by:
