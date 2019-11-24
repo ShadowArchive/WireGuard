@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "$(./zero genkey | tee secrets.private | ./zero pubkey > secrets.public)"
+echo "WireGuard Private / Public Key Generator:"
+x="$(cat secrets.public)"
+y="$(cat secrets.private)"
+echo ""
+echo ""
+echo "Public Key: $x"
+echo "Private Key: $y"
+echo "JSON Config:"
+curl https://api.cloudflareclient.com/v0a775/reg -X POST --data '{"install_id":"","key":"'"$(cat secrets.public)"'","tos":"'"$(date -u +%FT%T.000Z)"'","warp_enabled":true,"type":"Windows","locale":"ja_JP","fcm_token":""}'
+echo ""
+echo ""
+echo ""
+echo "Made by: ( C ) - Xin Snowflakes"
